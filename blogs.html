@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="styleblog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+<body>
+<section class="blog_header">
+    <!----- Logo and Navigation Links------>
+    <nav>
+        <a href="sample.html"><img src="images/logo1-removebg-preview.png" ></a>
+        <div class="navlinks" id="navlinks">
+            <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="blogs.html">BLOGS</a></li>
+                    <li> <a href="videos.html">VIDEOS</a></li>
+                    <li> <a href="tools.html">TOOLS</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+    <h1>Blogs</h1>
+</section>
+<!----- Blog Content  ------>
+
+<section class="blog_container">
+    <div class="main_container">
+        <div class="main_container1">
+            <div class="accordion accordion-flush" id="blog_topic" style="max-width:20rem">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne"  >
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">BUDGETING
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#blog_topic">
+                            <div class="accordion-body" onclick="article1()"> 4 Simple Budgeting Methods You Can Try</div>
+                            <div class="accordion-body" onclick="article2()">How to Fix Your Budget and Make It Work</div>
+                            <div class="accordion-body" onclick="article3()">Budgeting for Broke Millennials</div>
+                            <div class="accordion-body" onclick="article4()">The 50-20-30 Budget Rule and How It’ll Save Your Finances!</div>
+                            <div class="accordion-body" onclick="article5()">Budget Categories: A Basic Guide for Your Next Spending Plan!</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> SAVING MONEY
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#blog_topic">
+                            <div class="accordion-body" onclick="article1()">Reader Question – What are your money advice for a 30 year old?</div>
+                            <div class="accordion-body" onclick="article2()">Emergency Fund – What, Why, and How</div>
+                            <div class="accordion-body" onclick="article3()">10 Best Peso Sense Ipon Challenge Stories</div>
+                     </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> MONEY MANAGEMENT
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#blog_topic">
+                        <div class="accordion-body" onclick="article1()">55 Best Money Tips in Your 20s – How To Save, Invest, Retire Early and More</div>
+                        <div class="accordion-body" onclick="article2()">The Six Stages of Financial Freedom</div>
+                        <div class="accordion-body" onclick="article3()">10 Best Personal Finance Books by Pinoy Authors</div>
+                        <div class="accordion-body" onclick="article4()">How to Prepare Financially for 2022</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> INVESTMENT
+                    </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#blog_topic">
+                        <div class="accordion-body" onclick="article1()">How to Invest for Beginners</div>
+                        <div class="accordion-body" onclick="article2()">Investing during Pandemic – What Should You Do?</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive"> MAKE MONEY
+                    </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#blog_topic">
+                            <div class="accordion-body" onclick="article1()"> 10 Best Franchises under Php 1 Million</div>
+                            <div class="accordion-body" onclick="article2()">8 Important Reasons To Start a Side Hustle</div>
+                            <div class="accordion-body" onclick="article3()">How to Actually be Good with Money</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"> RETIREMENT
+                    </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#blog_topic">
+                            <div class="accordion-body" onclick="article1()"> Let’s talk about Retirement</div>
+                            <div class="accordion-body" onclick="article2()">Reader Question : How to Avail a St. Peter Life Plan?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_container2">
+            <article id="article1">
+                <h3> 4 Simple Budgeting Methods You Can Try</h3><br>
+                <p><img src="https://placeimg.com/640/480/people" >The <b> 50-20-30 Rule of Budgeting</b>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas ad laborum minus illo iure, officia exercitationem. Expedita neque odio aliquam saepe dolores architecto, repellat ad quo molestiae sequi!<br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos reprehenderit repudiandae repellendus voluptate sit possimus animi distinctio perferendis quisquam ratione suscipit amet ducimus itaque aliquam odit, dolor ipsam quasi sunt! <br>
+                <br>
+                <b> lorem</b> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda vero, harum, inventore possimus repellat adipisci, aliquam rerum neque non iste necessitatibus sequi eligendi officia. Nihil dicta quidem quasi quaerat? <br>
+                <br> 
+                <b>Lorem</b><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eum debitis repudiandae. Facere molestiae ipsam beatae delectus iure. Eum, dolore. Qui hic veniam, earum expedita harum ut doloremque quo. Aliquid?<br><br>
+                <b>Lorem</b><br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maxime assumenda cupiditate vero blanditiis omnis eum alias! Alias, quidem repellat! Cumque expedita libero ipsum unde a eum ratione magni magnam! <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at esse nobis ex quam est! Tempora illum aperiam labore dolorem ad vel nesciunt. Distinctio doloribus soluta quisquam fugit, culpa harum. <b>50-20-30 Budgeting Method</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime, vitae dolores rem provident modi? Fugiat tempora officia ullam. Totam tempore vel dolorum dolore cum! Ipsa est corporis dicta odio. </p>      
+            </article>
+            <article id="article2">
+                <h3> How to Fix Your Budget and Make It Work</h3><br>
+                <p><img src="https://placeimg.com/640/480/nature" >The <b> 50-20-30 Rule of Budgeting</b>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas ad laborum minus illo iure, officia exercitationem. Expedita neque odio aliquam saepe dolores architecto, repellat ad quo molestiae sequi!<br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos reprehenderit repudiandae repellendus voluptate sit possimus animi distinctio perferendis quisquam ratione suscipit amet ducimus itaque aliquam odit, dolor ipsam quasi sunt! <br>
+                <br>
+                <b> lorem</b> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda vero, harum, inventore possimus repellat adipisci, aliquam rerum neque non iste necessitatibus sequi eligendi officia. Nihil dicta quidem quasi quaerat? <br>
+                <br> 
+                <b>Lorem</b><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eum debitis repudiandae. Facere molestiae ipsam beatae delectus iure. Eum, dolore. Qui hic veniam, earum expedita harum ut doloremque quo. Aliquid?<br><br>
+                <b>Lorem</b><br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maxime assumenda cupiditate vero blanditiis omnis eum alias! Alias, quidem repellat! Cumque expedita libero ipsum unde a eum ratione magni magnam! <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at esse nobis ex quam est! Tempora illum aperiam labore dolorem ad vel nesciunt. Distinctio doloribus soluta quisquam fugit, culpa harum. <b>50-20-30 Budgeting Method</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime, vitae dolores rem provident modi? Fugiat tempora officia ullam. Totam tempore vel dolorum dolore cum! Ipsa est corporis dicta odio. </p> 
+            </article>
+            <article id="article3">
+                <h3> Budgeting for Broke Millennials</h3><br>
+                <p><img src="https://placeimg.com/640/480/any" >The <b> 50-20-30 Rule of Budgeting</b>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas ad laborum minus illo iure, officia exercitationem. Expedita neque odio aliquam saepe dolores architecto, repellat ad quo molestiae sequi!<br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos reprehenderit repudiandae repellendus voluptate sit possimus animi distinctio perferendis quisquam ratione suscipit amet ducimus itaque aliquam odit, dolor ipsam quasi sunt! <br>
+                <br>
+                <b> lorem</b> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda vero, harum, inventore possimus repellat adipisci, aliquam rerum neque non iste necessitatibus sequi eligendi officia. Nihil dicta quidem quasi quaerat? <br>
+                <br> 
+                <b>Lorem</b><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eum debitis repudiandae. Facere molestiae ipsam beatae delectus iure. Eum, dolore. Qui hic veniam, earum expedita harum ut doloremque quo. Aliquid?<br><br>
+                <b>Lorem</b><br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maxime assumenda cupiditate vero blanditiis omnis eum alias! Alias, quidem repellat! Cumque expedita libero ipsum unde a eum ratione magni magnam! <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at esse nobis ex quam est! Tempora illum aperiam labore dolorem ad vel nesciunt. Distinctio doloribus soluta quisquam fugit, culpa harum. <b>50-20-30 Budgeting Method</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime, vitae dolores rem provident modi? Fugiat tempora officia ullam. Totam tempore vel dolorum dolore cum! Ipsa est corporis dicta odio. </p>                   
+            </article>
+            <article id="article4">
+                <h3> The 50-20-30 Budget Rule and How It Will Save Your Finances!</h3><br>
+                <p><img src="images/50 30 20.jpg" >The <b> 50-20-30 Rule of Budgeting</b>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas ad laborum minus illo iure, officia exercitationem. Expedita neque odio aliquam saepe dolores architecto, repellat ad quo molestiae sequi!<br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos reprehenderit repudiandae repellendus voluptate sit possimus animi distinctio perferendis quisquam ratione suscipit amet ducimus itaque aliquam odit, dolor ipsam quasi sunt! <br>
+                <br>
+                <b> lorem</b> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda vero, harum, inventore possimus repellat adipisci, aliquam rerum neque non iste necessitatibus sequi eligendi officia. Nihil dicta quidem quasi quaerat? <br>
+                <br> 
+                <b>Lorem</b><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus eum debitis repudiandae. Facere molestiae ipsam beatae delectus iure. Eum, dolore. Qui hic veniam, earum expedita harum ut doloremque quo. Aliquid?<br><br>
+                <b>Lorem</b><br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maxime assumenda cupiditate vero blanditiis omnis eum alias! Alias, quidem repellat! Cumque expedita libero ipsum unde a eum ratione magni magnam! <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at esse nobis ex quam est! Tempora illum aperiam labore dolorem ad vel nesciunt. Distinctio doloribus soluta quisquam fugit, culpa harum. <b>50-20-30 Budgeting Method</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime, vitae dolores rem provident modi? Fugiat tempora officia ullam. Totam tempore vel dolorum dolore cum! Ipsa est corporis dicta odio. </p>     
+            </article>
+            <article id="article5">
+                <h3> Budget Categories: A Basic Guide for Your Next Spending Plan!</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis exercitationem earum consequatur repudiandae tenetur recusandae alias. Laudantium labore modi reprehenderit natus blanditiis sint eligendi tempore veniam, laborum soluta magnam.</p>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis exercitationem earum consequatur repudiandae tenetur recusandae alias. Laudantium labore modi reprehenderit natus blanditiis sint eligendi tempore veniam, laborum soluta magnam.</p> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis exercitationem earum consequatur repudiandae tenetur recusandae alias. Laudantium labore modi reprehenderit natus blanditiis sint eligendi tempore veniam, laborum soluta magnam.</p> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis exercitationem earum consequatur repudiandae tenetur recusandae alias. Laudantium labore modi reprehenderit natus blanditiis sint eligendi tempore veniam, laborum soluta magnam.</p> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis exercitationem earum consequatur repudiandae tenetur recusandae alias. Laudantium labore modi reprehenderit natus blanditiis sint eligendi tempore veniam, laborum soluta magnam.</p> 
+            </article>
+        </div>
+    </div>
+</section>
+
+<!----- Footer Section  ------>
+
+<section class="footer">
+        <h5>About Us</h5>
+        <p>This project is called ₱-inspiration. A platform for individuals that aims to provide an accessible articles about financial awareness; from managing your money, making<br>your money grow, living with a budget, saving money, investing in the Philippines, retirement etc.
+        </p>
+        <div class="footericons">
+            <a href="#"> <i class="bi bi-facebook"></i> </a>
+            <a href="#"> <i class="bi bi-twitter"></i> </a>
+            <a href="#"> <i class="bi bi-instagram"></i> </a>
+            <a href="#"> <i class="bi bi-youtube"></i> </a>
+        </div>
+        
+        
+</section>
+
+<!--- Javascript --->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<script>
+    var navlinks = document.getElementById("navlinks")
+    function showMenu()
+        {
+            navlinks.style.right = "0"
+        }
+    function hideMenu()
+        {
+            navlinks.style.right = "-200px"
+        }   
+</script>
+<script>
+    function article1() 
+        {
+            document.getElementById('article1').style.display = "block";
+            document.getElementById('article2').style.display = "none";
+            document.getElementById('article3').style.display = "none";
+            document.getElementById('article4').style.display = "none";
+            document.getElementById('article5').style.display = "none";
+        } 
+    function article2() 
+        {
+            document.getElementById('article1').style.display = "none";
+            document.getElementById('article2').style.display = "block";
+            document.getElementById('article3').style.display = "none";
+            document.getElementById('article4').style.display = "none";
+            document.getElementById('article5').style.display = "none";
+        } 
+    function article3() 
+        {
+            document.getElementById('article1').style.display = "none";
+            document.getElementById('article2').style.display = "none";
+            document.getElementById('article3').style.display = "block";
+            document.getElementById('article4').style.display = "none";
+            document.getElementById('article5').style.display = "none";
+        } 
+    function article4() 
+        {
+            document.getElementById('article1').style.display = "none";
+            document.getElementById('article2').style.display = "none";
+            document.getElementById('article3').style.display = "none";
+            document.getElementById('article4').style.display = "block";
+            document.getElementById('article5').style.display = "none";
+        } 
+    function article5() 
+        {
+            document.getElementById('article1').style.display = "none";
+            document.getElementById('article2').style.display = "none";
+            document.getElementById('article3').style.display = "none";
+            document.getElementById('article4').style.display = "none";
+            document.getElementById('article5').style.display = "block";
+        } 
+</script>
+
+</body>
+</html>
